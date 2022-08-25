@@ -10,15 +10,17 @@
     <script>
       //Homework66
 
-      /*var student = {
-                name: "David Rayy",
-                sclass: "VI",
-                rollno: 12,
-              };
-              for (var prop in student) {
-                console.log(student[prop]);
-              }
-              console.log(Object.keys(student));*/
+      var student = {
+        name: "David Rayy",
+        sclass: "VI",
+        rollno: 12,
+      };
+      /*for (var prop in student) {
+        console.log(student[prop]);
+      }*/
+      for (const prop in student) console.log(`${prop}`);
+      console.log(Object.keys(student));
+      console.log(Object.getOwnPropertyNames(student));
 
       //Homework67-69
       /*var student = {
